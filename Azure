@@ -1,0 +1,75 @@
+# 📄 Azure AI Document Intelligence App
+
+A full-stack web application that extracts and analyzes text from documents using Azure AI Document Intelligence.
+
+---
+
+## 🚀 Features
+
+- 📑 Extract text from PDFs & Images
+- 🧾 Invoice & Receipt Analysis
+- 🧠 Prebuilt & Custom Models
+- 🌍 Multi-language support
+
+---
+
+## 🛠 Tech Stack
+
+Frontend:
+- React.js
+
+Backend:
+- Python (FastAPI)
+- Azure AI Document Intelligence SDK
+
+---
+
+## ⚙️ Azure Services Used
+
+- Azure AI Document Intelligence
+- Azure Cognitive Services
+- Azure Storage (if used)
+
+---
+
+## 📌 Prerequisites
+
+- Python 3.8+
+- Azure Subscription
+- Document Intelligence API Key
+
+---
+
+## 🔑 Environment Variables
+
+Create a `.env` file:
+
+```
+AZURE_DOCUMENT_INTELLIGENCE_KEY=your_key
+AZURE_DOCUMENT_INTELLIGENCE_ENDPOINT=your_endpoint
+```
+
+---
+
+## ▶️ Run Locally
+
+Backend:
+
+```
+cd backend
+pip install -r requirements.txt
+uvicorn main:app --reload
+```
+
+---
+
+## 🌐 Live Demo (If Deployed)
+
+Add your deployment link here.
+
+---
+
+## 👩‍💻 Author
+
+Akanksha  
+B.Tech CSE | Cloud & AI Enthusiast
